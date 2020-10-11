@@ -120,14 +120,8 @@ void IsingBasicEx(int M, int N, double ratio, int Nsteps, int iter) {
         if(vertices[(y+2)*(M+4)+(x+2)] != -1) {
             vertices[(y+2)*(M+4)+(x+2)] = -1;
             spinCount++;
-            //std::cout<<x<<" "<<y<<std::endl;
         }
     }
-//    for(int i=0; i<; ++i) {
-//        for(int j=0; j<; ++j) {
-//
-//        }
-//    }
     
     ConfigToTxt(vertices, M, N, "./output/test0.txt");
     
