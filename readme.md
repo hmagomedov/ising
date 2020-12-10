@@ -4,4 +4,4 @@ Intial Conditions: 100x100 lattice, 80% negative spins, 20% positive. Positive s
 
 Rougly 2 billion iterations until stable connected Ising droplet.
 
-<img src="blob/main/mean_state.png" alt="Test"/>
+<img src="https://github.com/hmagomedov/ising/blob/main/mean_state.png"/>
